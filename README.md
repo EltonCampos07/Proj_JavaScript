@@ -5,9 +5,11 @@
 # Histórico de atualização do projeto:
 
 20/06/2022 - Início de desenvolvimento do projeto.<br>
+21/06/2022 - Finalização da estrutura HTML.<br>
 
 # Informações:
 
+* Projeto em andamento 🧑‍🎓
 * Projeto realizado no curso de Javascript 😝
 * Tecnologias utilizadas: HTML, CSS e Javascript
 * Imagens utilizadas no projetos são de livre uso
