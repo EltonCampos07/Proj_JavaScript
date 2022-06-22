@@ -6,6 +6,7 @@
 
 20/06/2022 - Início de desenvolvimento do projeto.<br>
 21/06/2022 - Finalização da estrutura HTML.<br>
+21/06/2022 - Finalização da estilização do site + responsividade.<br>
 
 # Informações:
 
