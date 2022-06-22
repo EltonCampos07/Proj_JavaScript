@@ -3,6 +3,11 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/CSS/reset.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Open+Sans:wght@300&family=Playfair+Display+SC:ital,wght@0,400;0,700;0,900;1,400;1,700;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./assets/CSS/style.css">
     <title>Animais Fantásticos</title>
 </head>
 <body>
@@ -10,10 +15,12 @@
     <!-- Desenvolvimento do header -->
 
     <nav class="menu">
-        <li><a href="#animais">Animais</a></li>
-        <li><a href="#faq">Faq</a></li>
-        <li><a href="#contato">Contato</a></li>
-        <li><a href="https://www.origamid.com/">Dev →</a></li>
+        <ul>
+            <li><a href="#animais">Animais</a></li>
+            <li><a href="#faq">Faq</a></li>
+            <li><a href="#contato">Contato</a></li>
+            <li><a href="https://www.origamid.com/">Dev →</a></li>
+        </ul>
     </nav>
 
     <!-- Fim do header -->
@@ -22,7 +29,7 @@
 
     <section class="grid-section animais" id="animais">
         <h1 class="titulo">Animais Fantásticos</h1>
-        <ul>
+        <ul class="animais-lista">
             <li>
                 <img src="./images/imagem1.jpg" alt="Raposa">
             </li>
@@ -43,7 +50,7 @@
             </li>
         </ul>
 
-        <div class="animais-descrição">
+        <div class="animais-descricao">
             <section>
                 <h2>Raposa</h2>
                 <p>As raposas são animais mamíferos e onívoros pertencentes à família Canidae. São vulpídeos de porte médio, caracterizados por um focinho comprido e uma cauda longa e peluda.</p>
@@ -95,8 +102,8 @@
     <!-- Desenvolvimento da section de perguntas -->
 
     <section class="grid-section faq" id="faq">
-        <h1>FAQ</h1>
-        <dl>
+        <h1 class="titulo">FAQ</h1>
+        <dl class="faq-lista">
             <dt>Qual a idade dos animais?</dt>
             <dd>
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi natus ut nisi consequuntur omnis quis error temporibus earum eaque, incidunt porro soluta, adipisci iusto voluptatum nobis sapiente! Provident, reprehenderit debitis?
@@ -119,12 +126,12 @@
     <!-- Fim da section de perguntas do site -->
 
     <section class="grid-section contato" id="contato">
-        <h1>Contato</h1>
+        <h1 class="titulo">Contato</h1>
         <div class="mapa">
             <img src="./images/mapa.png" alt="mapa">
         </div>
-        <address>
-            <ul class="dados">
+        <address class="dados">
+            <ul>
                 <li>eltonapcnunes@gmail.com</li>
                 <li>+55 (41) 9999-9999</li>
                 <li>Rua do Conde, n° 21</li>
